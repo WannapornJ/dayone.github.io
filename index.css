@@ -1,0 +1,70 @@
+.resume-container{
+    display: grid;
+    width: 720px;
+    align-content: center;
+    background-color: #E5E5E5;
+}
+.profile-banner{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    border: 1px solid #2C3D4C;
+    background-color: #2C3D4C;
+    height: 150px;
+}
+.name-position{
+    display: grid;
+    align-content: center;
+}
+.name{
+    color: oldlace;
+    font-size: 40px;
+}
+.position{
+    color: oldlace;
+    font-size: 20px;
+}
+.profile-image{
+    width: 110px;
+    height: 150px;
+    float: right;
+}
+.profile-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}
+.left-column{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-top: 20px;
+}
+.right-column{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #445E70;
+    margin-top: 15px;
+}
+.subtitle{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.separator{
+    border: 1px solid #445E70;
+    background-color: #445E70;
+    height: 2.5px;
+    width: 45px;
+}
+.content{
+    margin-top: 5px;
+}
+hr{
+    border: 1.5px solid #8E9694 ;
+    height: auto;
+}
